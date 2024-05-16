@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/visualizing-spaceX-launches.iml" filepath="$PROJECT_DIR$/.idea/visualizing-spaceX-launches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spaceX-launches.iml" filepath="$PROJECT_DIR$/.idea/spaceX-launches.iml" />
     </modules>
   </component>
 </project>
