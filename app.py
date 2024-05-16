@@ -37,7 +37,6 @@ def categorize_launches(Launches):
 
 
 launches = categorize_launches(fetch_spacex_launches())
-print(launches)
 
 if __name__ == "__main__":
     app.run(debug=True)

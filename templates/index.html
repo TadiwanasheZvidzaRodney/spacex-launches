@@ -23,5 +23,11 @@
 </head>
 <body>
 <h1>SpaceX Launches</h1>
+    {% for launch in launches.successful %}
+        <div>
+            <p>Name: {{launch.name}}</p>
+            <p>Date: {{launch.date_utc}}</p>
+        </div>
+    {% endfor %}
 </body>
 </html>
