@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html", Launches=launches)
+    return render_template("index.html", launches=launches)
 
 
 def fetch_spacex_launches():
