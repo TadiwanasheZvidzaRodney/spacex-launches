@@ -11,7 +11,7 @@
         {% if launch.details %}
         <p>{{launch.details}}</p>
         {% endif %}
-        <p>{{launch.date_utc}}</p>
+        <p>{{launch.date_utc|date_only}}</p>
 
         <div class="launch-links">
             <a href="{{launch.links.reddit.launch}}" target="_blank">Reddit Launch</a>
